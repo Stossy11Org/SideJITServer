@@ -8,7 +8,7 @@
 #    nuitka-project: --standalone
 
 # nuitka-project-if: {OS} == "Windows":
-#    nuitka-project: --output-filename=SideJITServer-windows-x86_64.exe
+#    nuitka-project: --output-filename=SideJITServer-windows-x86.exe
 #    nuitka-project: --include-module=jinxed.terminfo.vtwin10
 #    nuitka-project: --include-module=jinxed.terminfo.ansicon
 #    nuitka-project: --include-module=jinxed.terminfo.xterm
