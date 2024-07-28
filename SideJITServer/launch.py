@@ -9,10 +9,6 @@
 
 # nuitka-project-if: {OS} == "Windows":
 #    nuitka-project: --output-filename=SideJITServer-windows-x86.exe
-#    nuitka-project: --include-module=jinxed.terminfo.vtwin10
-#    nuitka-project: --include-module=jinxed.terminfo.ansicon
-#    nuitka-project: --include-module=jinxed.terminfo.xterm
-#    nuitka-project: --include-module=jinxed.terminfo.xterm_256color
 #    nuitka-project: --user-package-configuration-file=sidejitserver-nuitka-package.config.yml
 # nuitka-project-if: {OS} == "Linux":
 #    nuitka-project: --output-filename=SideJITServer-linux-x86_64.bin
